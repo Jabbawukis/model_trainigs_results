@@ -1,1 +1,1 @@
-# model_trainigs_results
+# model trainigs results
