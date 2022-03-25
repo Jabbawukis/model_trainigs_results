@@ -1,4 +1,4 @@
-# model trainigs results on the CONLL_03
+# model trainigs results on the CONLL_03 data set
 
 
 ## Round 1.
