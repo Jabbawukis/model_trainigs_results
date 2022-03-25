@@ -1,4 +1,4 @@
-# model trainigs results
+# model trainigs results on the CONLL_03
 
 
 ## Round 1.
