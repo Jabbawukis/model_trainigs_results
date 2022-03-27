@@ -25,7 +25,7 @@
 # model trainigs results on the WNUT_17 data set
 
 ## Round 5.
-- With rnn and with reproject_embeddings, with use_all_gazetteers, 3 training runs
+- With rnn and with reproject_embeddings, with use_all_gazetteers, 6 training runs
 - 1-2: Baseline, all without Gazetteer Embeddings, model 1 with Glove, model 2 without Glove
 - 3-5: all with Gazetteer Embeddings, all without Glove, model 03 with partial and full matching, model 04 with only full model 05 with only partial matching
 - 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 05 with only full model 08 with only partial matching
