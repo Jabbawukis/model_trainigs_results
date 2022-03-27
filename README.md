@@ -19,7 +19,7 @@
 - 3-5: all with Gazetteer Embeddings, all without Glove, model 03 with partial and full matching, model 04 with only full model 05 with only partial matching
 - 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 05 with only full model 08 with only partial matching
 
-## Round 4.
+## Round 4. (3.5)
 - Same as Round 3 but with extended gazetteer collection
 
 # model trainigs results on the WNUT_17 data set
