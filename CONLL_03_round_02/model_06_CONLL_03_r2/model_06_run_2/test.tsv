@@ -1907,7 +1907,7 @@ Exeter B-ORG B-ORG
 SOCCER O O
 - O O
 BLINKER B-PER O
-BAN O B-PER
+BAN O O
 LIFTED O O
 . O O
 
@@ -2274,8 +2274,8 @@ Russia B-LOC B-LOC
 3 O O
 15 O O
 
-Stefanel B-ORG B-ORG
-Milan I-ORG I-ORG
+Stefanel B-ORG B-PER
+Milan I-ORG I-PER
 ( O O
 Italy B-LOC B-LOC
 ) O O
@@ -2455,7 +2455,7 @@ Turkey B-LOC B-LOC
 2 O O
 16 O O
 
-Pau-Orthez B-ORG B-ORG
+Pau-Orthez B-ORG B-PER
 ( O O
 France B-LOC B-LOC
 ) O O
@@ -2508,7 +2508,7 @@ Russia B-LOC B-LOC
 RUGBY B-ORG B-ORG
 UNION I-ORG I-ORG
 - O O
-LITTLE B-PER O
+LITTLE B-PER B-PER
 TO O O
 MISS O O
 CAMPESE B-PER B-PER
@@ -2911,7 +2911,7 @@ England B-LOC B-LOC
 Dale B-PER B-PER
 McIntosh I-PER I-PER
 ( O O
-Pontypridd B-LOC B-ORG
+Pontypridd B-LOC B-LOC
 ) O O
 , O O
 5 O O
@@ -3063,9 +3063,9 @@ Open I-MISC I-MISC
 at O O
 the O O
 par-72 O O
-Chapman B-LOC B-LOC
-Golf I-LOC I-LOC
-Club I-LOC I-LOC
+Chapman B-LOC B-MISC
+Golf I-LOC I-MISC
+Club I-LOC I-MISC
 on O O
 Friday O O
 ( O O
@@ -4294,7 +4294,7 @@ Friday O O
 
 CRICKET O O
 - O O
-SHEFFIELD B-MISC B-ORG
+SHEFFIELD B-MISC B-LOC
 SHIELD I-MISC O
 SCORE O O
 . O O
@@ -4312,8 +4312,8 @@ day O O
 of O O
 the O O
 four-day O O
-Sheffield B-MISC B-ORG
-Shield I-MISC I-ORG
+Sheffield B-MISC B-MISC
+Shield I-MISC I-MISC
 match O O
 between O O
 Tasmania B-LOC B-LOC
@@ -4653,9 +4653,9 @@ the O O
 match O O
 at O O
 the O O
-Sydney B-LOC B-LOC
-Cricket I-LOC I-LOC
-Ground I-LOC I-LOC
+Sydney B-LOC B-MISC
+Cricket I-LOC I-MISC
+Ground I-LOC I-MISC
 by O O
 124 O O
 runs O O
@@ -5042,7 +5042,7 @@ Permadi I-PER I-PER
 Taiwan B-LOC B-LOC
 ) O O
 v O O
-Indra B-PER B-ORG
+Indra B-PER B-PER
 
 Wijaya B-PER B-PER
 ( O O
@@ -5198,7 +5198,7 @@ Cup I-MISC I-MISC
 final O O
 at O O
 the O O
-National B-LOC B-MISC
+National B-LOC O
 stadium I-LOC O
 on O O
 Friday O O
@@ -5589,7 +5589,7 @@ EDMONTON B-LOC B-LOC
 
 -DOCSTART- O O
 
-NHL B-ORG O
+NHL B-ORG B-ORG
 ICE O O
 HOCKEY O O
 - O O
@@ -5634,8 +5634,8 @@ Islanders I-ORG I-ORG
 
 Results O O
 of O O
-National B-ORG B-MISC
-Hockey I-ORG I-MISC
+National B-ORG B-ORG
+Hockey I-ORG I-ORG
 
 League B-ORG O
 games O O
@@ -6099,7 +6099,7 @@ YORK I-LOC I-LOC
 
 Standings O O
 of O O
-National B-ORG O
+National B-ORG B-ORG
 
 Basketball B-ORG B-ORG
 Association I-ORG I-ORG
@@ -6845,15 +6845,15 @@ Philadelphia B-ORG B-ORG
 
 -DOCSTART- O O
 
-NCAA B-ORG O
-AMERICAN O O
+NCAA B-ORG B-MISC
+AMERICAN O I-MISC
 FOOTBALL-OHIO B-MISC O
 STATE I-MISC O
 'S O O
 PACE B-PER O
 FIRST O O
 REPEAT O O
-LOMBARDI B-MISC B-MISC
+LOMBARDI B-MISC B-PER
 AWARD I-MISC O
 WINNER O O
 . O O
@@ -6882,8 +6882,8 @@ when O O
 the O O
 Rotary B-ORG B-ORG
 Club I-ORG I-ORG
-of O I-ORG
-Houston B-LOC I-ORG
+of O O
+Houston B-LOC B-LOC
 again O O
 honoured O O
 him O O
@@ -6903,8 +6903,8 @@ a O O
 junior O O
 , O O
 helped O O
-Ohio B-ORG B-LOC
-State I-ORG I-LOC
+Ohio B-ORG B-ORG
+State I-ORG I-ORG
 to O O
 a O O
 10-1 O O
@@ -7437,7 +7437,7 @@ Duisburg I-ORG I-ORG
 19 O O
 
 SV B-ORG B-ORG
-1860 I-ORG I-ORG
+1860 I-ORG B-ORG
 Munich I-ORG I-ORG
 17 O O
 4 O O
@@ -8011,7 +8011,7 @@ Reich B-PER B-PER
 Carl B-PER B-PER
 44th O O
 , O O
-Dundee B-ORG B-ORG
+Dundee B-ORG B-PER
 69th O O
 ) O O
 Freiburg B-LOC B-ORG
@@ -8340,7 +8340,7 @@ Spain B-LOC B-LOC
 Jose B-PER B-PER
 Taira I-PER I-PER
 ( O O
-Salamanca B-ORG B-LOC
+Salamanca B-ORG B-ORG
 , O O
 Spain B-LOC B-LOC
 ) O O
@@ -8414,7 +8414,7 @@ between O O
 Real B-ORG B-ORG
 Madrid I-ORG I-ORG
 and O O
-Barcelona B-ORG B-LOC
+Barcelona B-ORG B-ORG
 : O O
 
 To O O
@@ -8546,7 +8546,7 @@ Madrid I-ORG I-ORG
 
 14-1 O O
 Barcelona B-ORG B-ORG
-Draw O I-ORG
+Draw O O
 
 4-1 O O
 Barcelona B-ORG B-ORG
@@ -8625,7 +8625,7 @@ Hierro I-PER I-PER
 Ivan B-PER B-PER
 de I-PER I-PER
 
-laPena B-PER B-PER
+laPena B-PER B-ORG
 
 20-1 O O
 Luis B-PER B-PER
@@ -9385,7 +9385,7 @@ Cup I-MISC I-MISC
 
 -DOCSTART- O O
 
-GUNMEN O B-MISC
+GUNMEN O O
 WOUND O O
 TWO O O
 MANCHESTER B-ORG B-ORG
@@ -9478,8 +9478,8 @@ watch O O
 their O O
 team O O
 play O O
-Rapid B-ORG B-ORG
-Vienna I-ORG I-ORG
+Rapid B-ORG B-LOC
+Vienna I-ORG I-LOC
 last O O
 Wednesday O O
 , O O
@@ -10326,8 +10326,8 @@ Open I-MISC I-MISC
 the O O
 $ O O
 105,000 O O
-Mahindra B-MISC B-ORG
-International I-MISC I-ORG
+Mahindra B-MISC B-MISC
+International I-MISC I-MISC
 . O O
 
 The O O
@@ -10400,8 +10400,8 @@ Nicol B-PER B-PER
 
 SQUASH O O
 - O O
-MAHINDRA B-MISC B-ORG
-INTERNATIONAL I-MISC O
+MAHINDRA B-MISC B-MISC
+INTERNATIONAL I-MISC I-MISC
 SEMIFINAL O O
 RESULTS O O
 . O O
@@ -10472,8 +10472,8 @@ FOUR O O
 IN O O
 S.AFRICA B-MISC B-LOC
 'S O O
-ZULU B-MISC B-MISC
-PROVINCE O O
+ZULU B-MISC B-LOC
+PROVINCE O I-LOC
 . O O
 
 DURBAN B-PER B-LOC
@@ -11286,8 +11286,8 @@ SEES O O
 WIDER O O
 DEBATE O O
 AT O O
-PARTY O B-ORG
-CONGRESS O I-ORG
+PARTY O O
+CONGRESS O O
 . O O
 
 PRAGUE B-LOC B-LOC
@@ -11631,7 +11631,7 @@ cases O O
 belonged O O
 to O O
 Polish B-MISC B-MISC
-Jews B-MISC I-MISC
+Jews B-MISC B-MISC
 who O O
 died O O
 in O O
@@ -12187,8 +12187,8 @@ whose O O
 full O O
 name O O
 is O O
-Zaklady B-ORG B-ORG
-Piwowarskie I-ORG I-ORG
+Zaklady B-ORG B-PER
+Piwowarskie I-ORG I-PER
 w I-ORG O
 Zywcu I-ORG B-ORG
 SA I-ORG I-ORG
@@ -13128,7 +13128,7 @@ at O O
 $ O O
 15.575 O O
 per O O
-GDR O B-MISC
+GDR O O
 in O O
 London B-LOC B-LOC
 on O O
@@ -13478,7 +13478,7 @@ United B-LOC B-LOC
 States I-LOC I-LOC
 to O O
 liberalise O O
-trans-Atlantic B-MISC B-MISC
+trans-Atlantic B-MISC O
 air O O
 traffic O O
 , O O
@@ -14131,7 +14131,7 @@ were O O
 lower O O
 with O O
 cif O O
-Med O O
+Med O B-ORG
 pegged O O
 in O O
 the O O
@@ -14484,7 +14484,7 @@ on O O
 Friday O O
 that O O
 rebel O O
-Conservative B-MISC B-MISC
+Conservative B-MISC O
 MP O O
 Sir O O
 John B-PER B-PER
@@ -15036,7 +15036,7 @@ Feb O O
 75.55 O O
 77.01-81.80 O O
 
-Mar O O
+Mar O B-ORG
 97 O O
 76.37 O O
 76.12 O O
@@ -15154,8 +15154,8 @@ bureau O O
 Canadian B-MISC B-ORG
 West O I-ORG
 Coast O I-ORG
-Vessel O I-ORG
-Loadings O I-ORG
+Vessel O O
+Loadings O O
 - O O
 CWB O B-ORG
 . O O
@@ -15243,8 +15243,8 @@ Vancouver B-LOC B-ORG
 5 O O
 7 O O
 
-Prince B-LOC O
-Rupert I-LOC B-ORG
+Prince B-LOC B-PER
+Rupert I-LOC I-PER
 1 O O
 3 O O
 
@@ -15365,7 +15365,7 @@ WESTERN O B-LOC
 HEMISPHERE O I-LOC
 - O O
 
-Danila B-MISC B-LOC
+Danila B-MISC B-ORG
 28.5 O O
 16/12 O O
 Caribs B-LOC B-LOC
@@ -15425,8 +15425,8 @@ Lula B-MISC B-ORG
 I I-MISC I-ORG
 85 O O
 25/12 O O
-Sidi B-LOC B-ORG
-Kreir I-LOC I-ORG
+Sidi B-LOC B-PER
+Kreir I-LOC I-PER
 / O O
 Augusta B-LOC B-LOC
 W100 O O
@@ -15436,8 +15436,8 @@ Exxon B-ORG B-ORG
 Spetses B-MISC B-ORG
 139 O O
 17/12 O O
-Sidi B-LOC B-ORG
-Kreir I-LOC I-ORG
+Sidi B-LOC B-PER
+Kreir I-LOC I-PER
 / O O
 Augusta B-LOC B-LOC
 W97.50 O O
@@ -15447,9 +15447,9 @@ Exxon B-ORG B-ORG
 Mesipia B-MISC B-ORG
 77.5 O O
 17/12 O O
-Bajaia B-LOC B-LOC
-/ O O
-Fos B-LOC B-LOC
+Bajaia B-LOC B-ORG
+/ O I-ORG
+Fos B-LOC I-ORG
 W105 O O
 Exxon B-ORG B-ORG
 . O O
@@ -15814,8 +15814,8 @@ Mining I-ORG I-ORG
 Corp I-ORG I-ORG
 . O O
 
-Santa B-ORG B-LOC
-Fe I-ORG I-LOC
+Santa B-ORG B-ORG
+Fe I-ORG I-ORG
 is O O
 so O O
 far O O
@@ -16028,8 +16028,8 @@ Bre-X B-ORG B-ORG
 Minerals I-ORG I-ORG
 Ltd I-ORG I-ORG
 as O O
-Santa B-ORG B-LOC
-Fe I-ORG I-LOC
+Santa B-ORG B-ORG
+Fe I-ORG I-ORG
 saviors O O
 because O O
 they O O
@@ -16371,8 +16371,8 @@ shares O O
 . O O
 
 In O O
-Friday O O
-New B-ORG B-ORG
+Friday O B-ORG
+New B-ORG I-ORG
 York I-ORG I-ORG
 Stock I-ORG I-ORG
 Exchange I-ORG I-ORG
@@ -18006,7 +18006,7 @@ Grelombe B-PER B-PER
 is O O
 from O O
 the O O
-Yakoma B-MISC B-LOC
+Yakoma B-MISC B-MISC
 tribe O O
 to O O
 which O O
@@ -18134,14 +18134,14 @@ slightly O O
 damaged O O
 . O O
 
-Yakomas B-MISC B-LOC
+Yakomas B-MISC B-PER
 are O O
 hounded O O
 in O O
 stronghold O O
 districts O O
 of O O
-Patasse B-PER B-LOC
+Patasse B-PER B-PER
 's O O
 Baya B-MISC B-LOC
 people O O
@@ -18596,8 +18596,8 @@ Newsroom I-ORG I-ORG
 
 Skinheads O O
 attack O O
-Bratislava B-LOC B-ORG
-Rabbi O I-ORG
+Bratislava B-LOC B-LOC
+Rabbi O I-LOC
 - O O
 police O O
 . O O
@@ -20120,7 +20120,7 @@ part O O
 of O O
 the O O
 Soviet-led B-MISC B-MISC
-Warsaw B-MISC I-MISC
+Warsaw B-MISC B-MISC
 Pact I-MISC I-MISC
 , O O
 saying O O
@@ -21886,7 +21886,7 @@ Flint O B-LOC
 113.7 O O
 112 O O
 
-Maize O O
+Maize O B-PER
 ( O O
 Dent O O
 ) O O
@@ -21901,7 +21901,7 @@ unq O O
 unq O O
 unq O O
 
-Millet O B-PER
+Millet O O
 unq O O
 unq O O
 90 O O
@@ -21913,7 +21913,7 @@ unq O O
 283 O O
 unq O O
 
-Sunseeds O B-ORG
+Sunseeds O O
 219 O O
 216 O O
 220 O O
@@ -22001,7 +22001,7 @@ region O O
 from O O
 the O O
 ship O O
-Kenda B-MISC B-LOC
+Kenda B-MISC B-ORG
 . O O
 
 The O O
@@ -22859,7 +22859,7 @@ been O O
 awarded O O
 solely O O
 to O O
-Belo B-PER B-LOC
+Belo B-PER B-ORG
 . O O
 
 Asked O O
@@ -24166,7 +24166,7 @@ ILO B-ORG B-ORG
 agenda O O
 . O O
 
-ASEAN B-ORG B-LOC
+ASEAN B-ORG B-ORG
 groups O O
 Brunei B-LOC B-LOC
 , O O
@@ -24791,7 +24791,7 @@ Treasury I-ORG I-ORG
 Secretary O O
 Robert B-PER B-PER
 ) O I-PER
-Rubin B-PER B-PER
+Rubin B-PER I-PER
 's O O
 comments O O
 were O O
@@ -25050,7 +25050,7 @@ comments O O
 by O O
 " O O
 Mr B-PER O
-Yen I-PER B-MISC
+Yen I-PER O
 " O O
 , O O
 as O O
@@ -25597,7 +25597,7 @@ Lebanon B-LOC B-LOC
 
 Israel B-LOC B-LOC
 and O O
-Lahd B-PER B-LOC
+Lahd B-PER B-PER
 have O O
 repeatedly O O
 demanded O O
@@ -25905,8 +25905,8 @@ percent O O
 shrink O O
 . O O
 
-Slaughter O B-ORG
-Steers O I-ORG
+Slaughter O O
+Steers O O
 - O O
 Select O O
 and O O
@@ -26099,9 +26099,9 @@ Previous O O
 day O O
 estimated O O
 Steer O B-ORG
-and O I-ORG
-Heifer O I-ORG
-Cow O I-ORG
+and O O
+Heifer O B-MISC
+Cow O I-MISC
 and O O
 Bull O B-LOC
 
@@ -26124,9 +26124,9 @@ $ O O
 mln O O
 . O O
 
-CITY O B-ORG
-OF O I-ORG
-HARTFORD B-LOC I-ORG
+CITY O B-LOC
+OF O I-LOC
+HARTFORD B-LOC I-LOC
 , O O
 CONNECTICUT B-LOC B-LOC
 
@@ -26241,8 +26241,8 @@ Total O O
 State B-ORG B-ORG
 Street I-ORG I-ORG
 Bank I-ORG I-ORG
-and I-ORG I-ORG
-Trust I-ORG I-ORG
+and I-ORG O
+Trust I-ORG B-ORG
 Company I-ORG I-ORG
 
 Prudential B-ORG B-ORG
@@ -26586,7 +26586,7 @@ Thursday O O
 the O O
 11th O B-ORG
 Circuit O I-ORG
-U.S. B-ORG B-ORG
+U.S. B-ORG I-ORG
 Court I-ORG I-ORG
 of I-ORG I-ORG
 Appeals I-ORG I-ORG
@@ -26688,7 +26688,7 @@ NEW B-LOC B-LOC
 YORK I-LOC I-LOC
 1996-12-06 O O
 
-Mana O O
+Mana O B-LOC
 50,000 O O
 tonnes O O
 soybeans O O
@@ -26716,8 +26716,8 @@ Desk I-ORG I-ORG
 
 -DOCSTART- O O
 
-Iowa-S B-LOC B-ORG
-Minn B-LOC I-ORG
+Iowa-S B-LOC B-MISC
+Minn B-LOC I-MISC
 fed O O
 cattle O O
 market O O
@@ -26763,7 +26763,7 @@ Offerings O O
 light O O
 . O O
 
-Steers O B-ORG
+Steers O O
 - O O
 Select O O
 and O O
@@ -26801,7 +26801,7 @@ not O O
 tested O O
 . O O
 
-Steers O B-ORG
+Steers O O
 - O O
 Select O O
 and O O
@@ -26811,7 +26811,7 @@ no O O
 sales O O
 . O O
 
-Holstein O O
+Holstein O B-LOC
 - O O
 ( O O
 weight O O
@@ -27125,11 +27125,11 @@ Supplies O O
 Farmers O O
 Deliveries O O
 
-Curr O B-ORG
-Wk O I-ORG
-Yr O I-ORG
-Ago O I-ORG
-Curr O I-ORG
+Curr O B-PER
+Wk O I-PER
+Yr O O
+Ago O O
+Curr O O
 Wk O O
 Yr O O
 to O O
@@ -27165,7 +27165,7 @@ Barley O B-ORG
 2531.4 O O
 1897.1 O O
 
-Rye O O
+Rye O B-ORG
 44.6 O O
 86.3 O O
 2.3 O O
@@ -27223,7 +27223,7 @@ Wheat O O
 1039.7 O O
 846.1 O O
 
-Durum O B-ORG
+Durum O O
 129.0 O O
 1515.9 O O
 1220.6 O O
@@ -27247,7 +27247,7 @@ Barley O O
 941.0 O O
 786.6 O O
 
-Rye O O
+Rye O B-ORG
 4.1 O O
 60.7 O O
 57.9 O O
@@ -27255,7 +27255,7 @@ Rye O O
 10.7 O O
 18.9 O O
 
-Flax O B-ORG
+Flax O O
 7.2 O O
 154.1 O O
 235.7 O O
@@ -27598,7 +27598,7 @@ said O O
 an O O
 estimated O O
 35,662 O O
-Hub O B-MISC
+Hub O O
 contracts O O
 traded O O
 , O O
@@ -27672,9 +27672,9 @@ western O O
 Canada B-LOC B-LOC
 . O O
 
-NYMEX B-ORG B-ORG
-Permian I-ORG I-ORG
-natgas O I-ORG
+NYMEX B-ORG O
+Permian I-ORG O
+natgas O O
 , O O
 also O O
 untraded O O
@@ -27758,9 +27758,9 @@ lower O O
 . O O
 
 The O O
-East O B-ORG
-/ O I-ORG
-West O I-ORG
+East O B-LOC
+/ O I-LOC
+West O I-LOC
 spread O O
 narrowed O O
 by O O
@@ -27980,7 +27980,7 @@ each O O
 week O O
 May-August O O
 , O O
-mid-Mississippi B-MISC B-LOC
+mid-Mississippi B-MISC O
 offered O O
 at O O
 a O O
@@ -28404,8 +28404,8 @@ Friday O O
 The O O
 Humane O B-ORG
 Society O I-ORG
-of O I-ORG
-the O I-ORG
+of O O
+the O O
 United B-LOC B-LOC
 States I-LOC I-LOC
 estimates O O
@@ -28609,7 +28609,7 @@ were O O
 chow O O
 chows O O
 , O O
-Rottweilers B-MISC O
+Rottweilers B-MISC B-MISC
 , O O
 German B-MISC B-MISC
 shepherds I-MISC O
@@ -29280,8 +29280,8 @@ the O O
 protest O O
 organised O O
 by O O
-Herri B-ORG B-ORG
-Batasuna I-ORG I-ORG
+Herri B-ORG B-PER
+Batasuna I-ORG I-PER
 , O O
 the O O
 political O O
@@ -29353,7 +29353,7 @@ granddaughter O O
 of O O
 Italy B-LOC B-LOC
 's O O
-Fascist O B-MISC
+Fascist O O
 dictator O O
 Benito B-PER B-PER
 Mussolini I-PER I-PER
@@ -29580,8 +29580,8 @@ Germany B-LOC B-LOC
 1996-12-06 O O
 
 A O O
-Santa B-PER B-LOC
-Claus I-PER I-LOC
+Santa B-PER B-PER
+Claus I-PER I-PER
 distributing O O
 presents O O
 to O O
@@ -29634,8 +29634,8 @@ receive O O
 small O O
 presents O O
 from O O
-Saint B-PER B-LOC
-Nicholas I-PER I-LOC
+Saint B-PER O
+Nicholas I-PER B-PER
 , O O
 convinced O O
 police O O
@@ -30278,7 +30278,7 @@ The O O
 web O O
 site O O
 ( O O
-http://www.pt.lu/infoweb/kreschtmaart O B-ORG
+http://www.pt.lu/infoweb/kreschtmaart O O
 ) O O
 gives O O
 details O O
@@ -30360,7 +30360,7 @@ tonnes O O
 coal O O
 Maracaibo B-LOC B-LOC
 / O O
-Fos B-LOC O
+Fos B-LOC B-LOC
 19/12-2/1 O O
 $ O O
 9.90 O O
@@ -30976,7 +30976,7 @@ policy O O
 a O O
 spokesman O O
 for O O
-Major B-PER B-ORG
+Major B-PER B-PER
 's O O
 office O O
 said O O
@@ -31067,7 +31067,7 @@ managers O O
 . O O
 
 Both O O
-Major B-PER O
+Major B-PER B-PER
 and O O
 Clarke B-PER B-PER
 were O O
@@ -31603,7 +31603,7 @@ meaningless O O
 , O O
 necessitating O O
 an O O
-Arafat-Netanyahu O B-PER
+Arafat-Netanyahu O B-MISC
 meeting O O
 . O O
 
@@ -32240,8 +32240,8 @@ week O O
 Slaughter O O
 Steers O O
 : O O
-Pen O B-ORG
-Select O I-ORG
+Pen O O
+Select O O
 and O O
 Choice O O
 2-3 O O
@@ -32552,7 +32552,7 @@ said O O
 
 Earlier O O
 , O O
-NYMEX B-ORG B-ORG
+NYMEX B-ORG O
 crude O O
 ended O O
 daytime O O
@@ -33152,11 +33152,11 @@ Cito I-PER I-PER
 was O O
 expelled O O
 from O O
-St B-ORG B-LOC
-Pius I-ORG I-LOC
-X I-ORG I-LOC
-High I-ORG I-LOC
-School I-ORG I-LOC
+St B-ORG B-ORG
+Pius I-ORG I-ORG
+X I-ORG I-ORG
+High I-ORG I-ORG
+School I-ORG I-ORG
 in O O
 Albuquerque B-LOC B-LOC
 after O O
@@ -33765,7 +33765,7 @@ had O O
 never O O
 browsed O O
 the O O
-Net O O
+Net O B-MISC
 . O O
 
 " O O
@@ -33822,7 +33822,7 @@ mouse O O
 . O O
 
 " O O
-Internet B-MISC B-MISC
+Internet B-MISC O
 is O O
 a O O
 potential O O
@@ -34411,7 +34411,7 @@ my O O
 friends O O
 from O O
 the O O
-League B-ORG O
+League B-ORG B-ORG
 " O O
 to O O
 work O O
@@ -34536,7 +34536,7 @@ a O O
 small O O
 group O O
 of O O
-League B-LOC O
+League B-LOC B-ORG
 supporters O O
 when O O
 he O O
@@ -34580,7 +34580,7 @@ Italia B-LOC I-ORG
 . O O
 
 The O O
-League B-ORG O
+League B-ORG B-ORG
 won O O
 more O O
 than O O
@@ -34648,7 +34648,7 @@ badly O O
 
 Denmark B-LOC B-LOC
 's O O
-Radiometer O B-ORG
+Radiometer O O
 H1 O O
 result O O
 seen O O
@@ -35565,7 +35565,7 @@ sales O O
 , O O
 including O O
 the O O
-Waitrose B-ORG B-ORG
+Waitrose B-ORG B-MISC
 supermarket O O
 chain O O
 , O O
@@ -35621,7 +35621,7 @@ at O O
 $ O O
 15.625 O O
 per O O
-GDR O B-MISC
+GDR O O
 in O O
 London B-LOC B-LOC
 on O O
@@ -35696,7 +35696,7 @@ member O O
 of O O
 the O O
 ruling O O
-Conservative B-MISC B-MISC
+Conservative B-MISC B-ORG
 party O O
 said O O
 on O O
@@ -35779,7 +35779,7 @@ endure O O
 Marlow B-PER B-PER
 told O O
 BBC B-ORG B-ORG
-television O O
+television O I-ORG
 's O O
 Newsnight B-MISC B-ORG
 programme O O
@@ -36526,7 +36526,7 @@ NZ B-LOC B-LOC
 's O O
 Peters B-PER B-PER
 says O O
-Nat B-PER O
+Nat B-PER B-PER
 , O O
 Lab B-PER O
 talks O O
@@ -36703,7 +36703,7 @@ the O O
 electoral O O
 division O O
 of O O
-Fraser B-PER B-PER
+Fraser B-PER B-ORG
 in O O
 the O O
 Australian B-MISC B-LOC
@@ -37505,7 +37505,7 @@ General B-ORG B-ORG
 Administration I-ORG I-ORG
 of I-ORG I-ORG
 Customs I-ORG I-ORG
-and O O
+and O I-ORG
 other O O
 authorities O O
 had O O
@@ -38190,8 +38190,8 @@ a O O
 deal O O
 . O O
 
-The O O
-Ministry O B-ORG
+The O B-ORG
+Ministry O I-ORG
 had O O
 given O O
 the O O
@@ -38245,8 +38245,8 @@ source O O
 said O O
 . O O
 
-The O O
-Ministry O B-ORG
+The O B-ORG
+Ministry O I-ORG
 's O O
 Umar B-PER B-PER
 said O O
@@ -38858,7 +38858,7 @@ Tariffs I-MISC I-ORG
 and I-MISC I-ORG
 Trade I-MISC I-ORG
 ( O O
-GATT B-MISC B-ORG
+GATT B-MISC B-MISC
 ) O O
 . O O
 
@@ -39206,8 +39206,8 @@ TOKYO B-LOC B-LOC
 
 Nippon B-ORG B-ORG
 Telegraph I-ORG I-ORG
-and I-ORG I-ORG
-Telephone I-ORG I-ORG
+and I-ORG O
+Telephone I-ORG B-ORG
 Corp I-ORG I-ORG
 ( O O
 NTT B-ORG B-ORG
@@ -39493,7 +39493,7 @@ Ahold B-ORG B-ORG
 full O O
 service O O
 supermarket O O
-TOPS B-MISC O
+TOPS B-MISC B-ORG
 , O O
 recently O O
 launched O O
@@ -39524,7 +39524,7 @@ formats O O
 making O O
 TOPS B-MISC O
 and O O
-BILO B-MISC O
+BILO B-MISC B-MISC
 household O O
 names O O
 in O O
@@ -39684,8 +39684,8 @@ in O O
 downhill O O
 at O O
 the O O
-1991 O O
-World B-MISC B-MISC
+1991 O B-MISC
+World B-MISC I-MISC
 Championships I-MISC I-MISC
 . O O
 
@@ -40247,7 +40247,7 @@ Norway B-LOC I-LOC
 super O O
 G O O
 , O O
-Flachau B-LOC B-LOC
+Flachau B-LOC B-PER
 , O O
 Austria B-LOC B-LOC
 , O O
@@ -40615,7 +40615,7 @@ Germany B-LOC B-LOC
 Alexandra B-PER B-PER
 Meissnitzer I-PER I-PER
 ( O O
-Austria)118 O B-LOC
+Austria)118 O O
 
 15. O O
 Urska B-PER B-PER
@@ -40831,9 +40831,9 @@ Austria B-LOC B-LOC
 ) O O
 27 O O
 
-Nation B-MISC B-MISC
-'s I-MISC I-MISC
-Cup I-MISC I-MISC
+Nation B-MISC O
+'s I-MISC O
+Cup I-MISC B-MISC
 standings O O
 : O O
 
@@ -41571,8 +41571,8 @@ points O O
 15 O O
 ahead O O
 of O O
-USA B-ORG B-ORG
-I I-ORG I-ORG
+USA B-ORG B-MISC
+I I-ORG I-MISC
 's O O
 Jim B-PER B-PER
 Herberich I-PER I-PER
@@ -41870,9 +41870,9 @@ Saturday O O
 : O O
 
 1. O O
-United B-ORG B-ORG
-States I-ORG I-ORG
-III I-ORG I-ORG
+United B-ORG B-LOC
+States I-ORG I-LOC
+III I-ORG O
 ( O O
 Brian B-PER B-PER
 Shimer I-PER I-PER
@@ -42082,7 +42082,7 @@ MAKES O O
 SENTIMENTAL O O
 RETURN O O
 TO O O
-KANPUR B-LOC B-LOC
+KANPUR B-LOC B-ORG
 . O O
 
 KANPUR B-LOC B-LOC
@@ -42370,8 +42370,8 @@ the O O
 stadium O O
 where O O
 the O O
-India-South B-MISC B-LOC
-Africa I-MISC I-LOC
+India-South B-MISC B-MISC
+Africa I-MISC I-MISC
 test O O
 will O O
 be O O
@@ -43723,7 +43723,7 @@ Yorke I-PER I-PER
 ( O O
 Aston B-ORG B-ORG
 
-Villa B-ORG B-ORG
+Villa B-ORG B-PER
 ) O O
 , O O
 Les B-PER B-PER
@@ -43750,7 +43750,7 @@ Chelsea B-ORG B-ORG
 Robbie B-PER B-PER
 Earle I-PER I-PER
 ( O O
-Wimbledon B-LOC B-ORG
+Wimbledon B-LOC B-LOC
 ) O O
 , O O
 Les B-PER B-PER
@@ -44250,7 +44250,7 @@ clubs O O
 eager O O
 to O O
 match O O
-London B-LOC B-LOC
+London B-LOC B-ORG
 side O O
 Saracens B-ORG B-ORG
 who O O
@@ -44799,8 +44799,8 @@ Fife I-ORG I-ORG
 35 O O
 7 O O
 
-Division O O
-Two O O
+Division O B-MISC
+Two O I-MISC
 
 Ayr B-ORG B-ORG
 16 O O
@@ -45450,8 +45450,8 @@ Oldham B-ORG B-ORG
 28 O O
 20 O O
 
-Division O O
-Two O O
+Division O B-MISC
+Two O I-MISC
 
 Brentford B-ORG B-ORG
 22 O O
@@ -46487,7 +46487,7 @@ OFF O O
 WITH O O
 TRY O O
 IN O O
-WALLABY B-LOC O
+WALLABY B-LOC B-PER
 ROMP O O
 . O O
 
@@ -46706,7 +46706,7 @@ Burke B-PER B-PER
 ) O O
 . O O
 
-Barbarians B-ORG B-ORG
+Barbarians B-ORG B-LOC
 - O O
 Tries O O
 : O O
@@ -47180,7 +47180,7 @@ JONES B-PER B-PER
 HITS O O
 CENTURY O O
 AS O O
-VICTORIA B-ORG O
+VICTORIA B-ORG B-ORG
 FIGHT O O
 BACK O O
 . O O
@@ -47229,7 +47229,7 @@ for O O
 eight O O
 declared O O
 , O O
-Victoria B-LOC B-ORG
+Victoria B-LOC B-PER
 reached O O
 220 O O
 for O O
@@ -47266,7 +47266,7 @@ equalling O O
 the O O
 feats O O
 of O O
-Tasmanian B-MISC B-MISC
+Tasmanian B-MISC B-ORG
 trio O O
 David B-PER B-PER
 Boon I-PER I-PER
@@ -47375,7 +47375,7 @@ Victoria B-LOC B-LOC
 
 CRICKET O O
 - O O
-SHEFFIELD B-MISC B-ORG
+SHEFFIELD B-MISC B-LOC
 SHIELD I-MISC O
 SCORE O O
 . O O
@@ -47396,8 +47396,8 @@ day O O
 of O O
 the O O
 four-day O O
-Sheffield B-MISC B-ORG
-Shield I-MISC I-ORG
+Sheffield B-MISC B-MISC
+Shield I-MISC I-MISC
 cricket O O
 match O O
 between O O
@@ -47949,7 +47949,7 @@ Aviv I-ORG I-ORG
 
 Ironi B-ORG B-ORG
 Rishon I-ORG I-ORG
-Lezion I-ORG I-ORG
+Lezion I-ORG O
 1 O O
 Maccabi B-ORG B-ORG
 Herzliya I-ORG I-ORG
@@ -48225,8 +48225,8 @@ Attendance O O
 : O O
 15,000 O O
 
-South B-LOC B-ORG
-Korea I-LOC I-ORG
+South B-LOC B-LOC
+Korea I-LOC I-LOC
 4 O O
 Indonesia B-LOC B-LOC
 2 O O
@@ -48352,7 +48352,7 @@ YORK I-LOC I-LOC
 
 Standings O O
 of O O
-National B-ORG O
+National B-ORG B-ORG
 
 Basketball B-ORG B-ORG
 Association I-ORG I-ORG
@@ -49117,8 +49117,8 @@ YORK I-LOC I-LOC
 
 Results O O
 of O O
-National B-ORG B-MISC
-Hockey I-ORG I-MISC
+National B-ORG B-ORG
+Hockey I-ORG I-ORG
 
 League B-ORG O
 games O O
@@ -49174,7 +49174,7 @@ Ottawa B-LOC B-ORG
 
 -DOCSTART- O O
 
-NHL B-ORG O
+NHL B-ORG B-ORG
 ICE O O
 HOCKEY O O
 - O O
@@ -49561,7 +49561,7 @@ A O O
 mix-up O O
 in O O
 the O O
-Barcelona B-ORG B-LOC
+Barcelona B-ORG B-ORG
 defence O O
 let O O
 Croatian B-MISC B-MISC
@@ -49575,7 +49575,7 @@ first O O
 half O O
 , O O
 and O O
-Montenegrin B-MISC B-MISC
+Montenegrin B-MISC B-ORG
 striker O O
 Mijatovic B-PER B-PER
 made O O
@@ -50067,8 +50067,8 @@ Extremadura B-ORG B-ORG
 
 SOCCER O O
 - O O
-ENGLISHMAN B-MISC O
-CHARLTON I-MISC B-PER
+ENGLISHMAN B-MISC B-PER
+CHARLTON I-MISC I-PER
 IS O O
 MADE O O
 AN O O

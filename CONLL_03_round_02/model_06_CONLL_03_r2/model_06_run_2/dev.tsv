@@ -409,7 +409,7 @@ by O O
 the O O
 weather O O
 , O O
-Kent B-ORG B-ORG
+Kent B-ORG B-PER
 stepped O O
 up O O
 a O O
@@ -1466,12 +1466,12 @@ Attendance O O
 
 SOCCER O O
 - O O
-ROTOR B-ORG B-MISC
+ROTOR B-ORG O
 FANS O O
 LOCKED O O
 OUT O O
 AFTER O O
-VOLGOGRAD B-LOC B-LOC
+VOLGOGRAD B-LOC B-ORG
 VIOLENCE O O
 . O O
 
@@ -1534,7 +1534,7 @@ said O O
 on O O
 Friday O O
 that O O
-Rotor B-ORG B-ORG
+Rotor B-ORG B-PER
 would O O
 play O O
 Lada B-ORG B-PER
@@ -1640,9 +1640,9 @@ boxing O O
 legend O O
 Roberto B-PER B-PER
 " I-PER O
-Hands I-PER B-PER
-of I-PER I-PER
-Stone I-PER I-PER
+Hands I-PER O
+of I-PER O
+Stone I-PER B-PER
 " I-PER O
 Duran I-PER B-PER
 climbs O O
@@ -2212,7 +2212,7 @@ Ssangbangwool B-ORG B-ORG
 
 Note O O
 - O O
-Lotte B-ORG B-ORG
+Lotte B-ORG B-PER
 and O O
 Hyundai B-ORG B-ORG
 , O O
@@ -3649,7 +3649,7 @@ lead O O
 . O O
 
 The O O
-Texan B-MISC B-MISC
+Texan B-MISC B-PER
 blasted O O
 in O O
 two O O
@@ -3756,8 +3756,8 @@ year O O
 tournament O O
 at O O
 the O O
-All-England B-ORG B-LOC
-Club I-ORG I-LOC
+All-England B-ORG B-ORG
+Club I-ORG I-ORG
 , O O
 argued O O
 calls O O
@@ -4789,8 +4789,8 @@ but O O
 none O O
 since O O
 the O O
-1993 O O
-BellSouth B-MISC B-MISC
+1993 O B-MISC
+BellSouth B-MISC I-MISC
 Classic I-MISC I-MISC
 . O O
 
@@ -8456,7 +8456,7 @@ common O O
 stock O O
 . O O
 
-Jones B-ORG B-ORG
+Jones B-ORG B-PER
 stock O O
 closed O O
 down O O
@@ -8728,7 +8728,7 @@ traders O O
 said O O
 . O O
 
-NYMEX O B-ORG
+NYMEX O O
 will O O
 be O O
 closed O O
@@ -8761,8 +8761,8 @@ lower O O
 , O O
 shaken O O
 by O O
-Chicago B-LOC B-LOC
-NAPM I-LOC I-LOC
+Chicago B-LOC B-ORG
+NAPM I-LOC I-ORG
 . O O
 
 CHICAGO B-LOC B-LOC
@@ -8799,7 +8799,7 @@ of I-ORG I-ORG
 Purchasing I-ORG I-ORG
 Management I-ORG I-ORG
 ( O O
-NAPM B-ORG B-MISC
+NAPM B-ORG B-ORG
 ) O O
 index O O
 for O O
@@ -8815,8 +8815,8 @@ said O O
 
 The O O
 August O O
-Chicago B-LOC B-MISC
-NAPM I-LOC I-MISC
+Chicago B-LOC B-ORG
+NAPM I-LOC I-ORG
 rose O O
 8.8 O O
 points O O
@@ -8878,7 +8878,7 @@ investors O O
 were O O
 unwinding O O
 long O O
-Eurodollar B-MISC B-MISC
+Eurodollar B-MISC O
 futures O O
 / O O
 short O O
@@ -9171,8 +9171,8 @@ said O O
 at O O
 the O O
 annual O O
-Jackson B-MISC B-MISC
-Hole I-MISC I-MISC
+Jackson B-MISC B-LOC
+Hole I-MISC I-LOC
 symposium I-MISC O
 that O O
 the O O
@@ -9427,8 +9427,8 @@ beef O O
 up O O
 Markham B-ORG B-ORG
 , O O
-Ontario-based B-MISC O
-Magna I-MISC B-ORG
+Ontario-based B-MISC B-ORG
+Magna I-MISC I-ORG
 's O O
 North B-MISC B-MISC
 American I-MISC I-MISC
@@ -11188,8 +11188,8 @@ naira O O
 
 -DOCSTART- O O
 
-East B-ORG B-LOC
-Dries I-ORG I-LOC
+East B-ORG B-ORG
+Dries I-ORG I-ORG
 miners O O
 fail O O
 to O O
@@ -13131,8 +13131,8 @@ which O O
 breached O O
 a O O
 shaky O O
-United B-MISC B-ORG
-Nations-sponsored I-MISC I-ORG
+United B-MISC B-MISC
+Nations-sponsored I-MISC I-MISC
 ceasefire O O
 . O O
 
@@ -14053,7 +14053,7 @@ Global O O
 Depositary O O
 Receipts O O
 ( O O
-GDRs O B-MISC
+GDRs O O
 ) O O
 opened O O
 at O O
@@ -14392,7 +14392,7 @@ Hungarian B-MISC B-MISC
 units O O
 . O O
 
-Cofinec B-ORG B-PER
+Cofinec B-ORG B-ORG
 said O O
 Petofi B-ORG B-PER
 general O O
@@ -14457,7 +14457,7 @@ chief O O
 executive O O
 officer O O
 of O O
-Petofi B-ORG B-ORG
+Petofi B-ORG B-PER
 , O O
 " O O
 Frater B-PER B-PER
@@ -15203,11 +15203,11 @@ amnesty O O
 
 -DOCSTART- O O
 
-Far B-LOC B-ORG
-East I-LOC I-ORG
-Gold O I-ORG
+Far B-LOC O
+East I-LOC O
+Gold O O
 - O O
-Moribund O B-MISC
+Moribund O B-LOC
 market O O
 seen O O
 continuing O O
@@ -15220,8 +15220,8 @@ HONG B-LOC B-LOC
 KONG I-LOC I-LOC
 1996-08-30 O O
 
-Far B-LOC O
-East I-LOC O
+Far B-LOC B-LOC
+East I-LOC I-LOC
 gold O O
 traders O O
 thumped O O
@@ -15730,8 +15730,8 @@ the O O
 bombing O O
 of O O
 a O O
-Pan B-ORG B-MISC
-Am I-ORG I-MISC
+Pan B-ORG B-ORG
+Am I-ORG I-ORG
 flight O O
 over O O
 Lockerbie B-LOC B-LOC
@@ -19232,7 +19232,7 @@ billion O O
 asset-St B-MISC O
 . I-MISC O
 
-Louis B-MISC B-ORG
+Louis B-MISC B-PER
 based O O
 thrift O O
 . O O
@@ -19278,8 +19278,8 @@ buying O O
 in O O
 Missouri B-LOC B-LOC
 are O O
-Minneapolis-based B-ORG O
-First I-ORG B-ORG
+Minneapolis-based B-ORG B-ORG
+First I-ORG I-ORG
 Bank I-ORG I-ORG
 System I-ORG I-ORG
 Inc. I-ORG I-ORG
@@ -19287,8 +19287,8 @@ and O O
 Norwest B-ORG B-ORG
 Corp. I-ORG I-ORG
 , O O
-Ohio-based B-MISC O
-KeyCorp I-MISC B-ORG
+Ohio-based B-MISC B-ORG
+KeyCorp I-MISC I-ORG
 and O O
 Banc B-ORG B-ORG
 One I-ORG I-ORG
@@ -19731,9 +19731,9 @@ pledged O O
 to O O
 Farrakhan B-PER B-PER
 's O O
-Nation B-ORG B-MISC
-of I-ORG I-MISC
-Islam I-ORG I-MISC
+Nation B-ORG B-ORG
+of I-ORG I-ORG
+Islam I-ORG I-ORG
 group O O
 after O O
 they O O
@@ -19747,8 +19747,8 @@ organised O O
 last O O
 October O O
 's O O
-Million B-MISC B-MISC
-Man I-MISC I-MISC
+Million B-MISC O
+Man I-MISC O
 March I-MISC O
 that O O
 brought O O
@@ -19797,8 +19797,8 @@ the O O
 1988 O O
 bombing O O
 of O O
-Pan B-MISC B-LOC
-Am I-MISC I-LOC
+Pan B-MISC B-ORG
+Am I-MISC I-ORG
 flight I-MISC O
 103 I-MISC O
 over O O
@@ -19897,7 +19897,7 @@ rigs O O
 in O O
 European B-MISC B-MISC
 / O O
-Mediterranean B-MISC B-MISC
+Mediterranean B-MISC B-LOC
 remained O O
 unchanged O O
 this O O
@@ -20178,10 +20178,10 @@ are O O
 sponsored O O
 by O O
 the O O
-Commission B-ORG B-MISC
-on I-ORG I-MISC
-Presidential I-ORG I-MISC
-Debates I-ORG I-MISC
+Commission B-ORG B-ORG
+on I-ORG I-ORG
+Presidential I-ORG I-ORG
+Debates I-ORG I-ORG
 , O O
 a O O
 non-profit O O
@@ -20205,7 +20205,7 @@ Voters I-ORG I-ORG
 
 -DOCSTART- O O
 
-Titanic B-MISC B-ORG
+Titanic B-MISC O
 recovery O O
 mission O O
 is O O
@@ -20493,8 +20493,8 @@ week O O
 the O O
 expansion O O
 of O O
-Jewish B-LOC B-MISC
-West I-LOC B-LOC
+Jewish B-LOC B-LOC
+West I-LOC I-LOC
 Bank I-LOC I-LOC
 settlements O O
 surrounding O O
@@ -20948,8 +20948,8 @@ CGT I-MISC I-MISC
 unions O O
 marched O O
 outside O O
-Air B-ORG B-ORG
-France I-ORG I-ORG
+Air B-ORG B-LOC
+France I-ORG I-LOC
 headquarters O O
 at O O
 Charles B-LOC B-LOC
@@ -22901,7 +22901,7 @@ holy O O
 city O O
 . O O
 
-Pilgrims O B-MISC
+Pilgrims O O
 stood O O
 little O O
 chance O O
@@ -23998,8 +23998,8 @@ STOCKS O O
 GOLD O O
 METALS O O
 
-NY B-MISC B-LOC
-Dow I-MISC I-LOC
+NY B-MISC O
+Dow I-MISC B-MISC
 close O O
 London B-LOC B-LOC
 opening O O
@@ -25614,7 +25614,7 @@ limitations O O
 . O O
 " O O
 
-Pro-Moscow B-MISC B-MISC
+Pro-Moscow B-MISC O
 leaders O O
 in O O
 Chechnya B-LOC B-LOC
@@ -25630,7 +25630,7 @@ who O O
 heads O O
 the O O
 OSCE B-ORG B-ORG
-Chechnya I-ORG I-ORG
+Chechnya I-ORG B-LOC
 mission O O
 , O O
 saying O O
@@ -26313,7 +26313,7 @@ Finland B-LOC B-LOC
 Sombre O O
 mood O O
 on O O
-Arctic B-MISC B-MISC
+Arctic B-MISC B-LOC
 island O O
 after O O
 plane O O
@@ -26356,7 +26356,7 @@ clouded O O
 sky O O
 . O O
 
-Longyear B-LOC B-PER
+Longyear B-LOC B-LOC
 is O O
 a O O
 town O O
@@ -26576,7 +26576,7 @@ and O O
 Pyramiden B-LOC B-LOC
 . O O
 
-Longyear B-LOC B-PER
+Longyear B-LOC B-LOC
 is O O
 a O O
 Norwegian B-MISC B-MISC
@@ -26840,7 +26840,7 @@ the O O
 only O O
 colour O O
 in O O
-Longyear B-LOC B-LOC
+Longyear B-LOC B-PER
 comes O O
 from O O
 the O O
@@ -27011,8 +27011,8 @@ says O O
 wins O O
 1.2 O O
 bln O O
-SKR O B-MISC
-China B-LOC I-MISC
+SKR O O
+China B-LOC B-LOC
 order O O
 . O O
 
@@ -28374,8 +28374,8 @@ letter O O
 from O O
 the O O
 the O O
-Palestinian B-MISC B-ORG
-U.N. I-MISC I-ORG
+Palestinian B-MISC B-MISC
+U.N. I-MISC I-MISC
 observer O O
 mission O O
 , O O
@@ -28501,8 +28501,8 @@ of O O
 the O O
 Holy B-LOC B-LOC
 City I-LOC I-LOC
-of I-LOC O
-Jerusalem I-LOC B-LOC
+of I-LOC I-LOC
+Jerusalem I-LOC I-LOC
 " O O
 and O O
 violated O O
@@ -29269,7 +29269,7 @@ Attendance O O
 
 -DOCSTART- O O
 
-GOLF O O
+GOLF O B-LOC
 - O O
 BRITISH B-MISC B-MISC
 MASTERS I-MISC I-MISC
@@ -29529,7 +29529,7 @@ SOCCER O O
 - O O
 SLOVAKIA B-LOC B-LOC
 BEAT O O
-FAROES B-LOC B-ORG
+FAROES B-LOC B-LOC
 IN O O
 WORLD B-MISC B-MISC
 CUP I-MISC I-MISC
@@ -31178,7 +31178,7 @@ over O O
 Seattle B-ORG B-ORG
 in O O
 the O O
-West B-LOC B-MISC
+West B-LOC B-LOC
 increased O O
 to O O
 six O O
@@ -31344,7 +31344,7 @@ his O O
 career O O
 . O O
 
-Baltimore B-ORG B-LOC
+Baltimore B-ORG B-ORG
 's O O
 Eddie B-PER B-PER
 Murray I-PER I-PER
@@ -32244,7 +32244,7 @@ West B-ORG B-ORG
 Hartlepool I-ORG I-ORG
 20 O O
 
-Orrell B-ORG B-ORG
+Orrell B-ORG B-PER
 13 O O
 Bath B-ORG B-ORG
 56 O O
@@ -32651,7 +32651,7 @@ Bath B-ORG B-ORG
 56-13 O O
 winners O O
 over O O
-Orrell B-ORG B-PER
+Orrell B-ORG B-ORG
 , O O
 and O O
 Northampton B-ORG B-ORG
@@ -34344,8 +34344,8 @@ RACING O O
 LEADING O O
 QUALIFIERS O O
 FOR O O
-VANCOUVER B-LOC B-MISC
-INDYCAR I-LOC I-MISC
+VANCOUVER B-LOC B-LOC
+INDYCAR I-LOC O
 RACE O O
 . O O
 
@@ -34465,8 +34465,8 @@ Tracy I-PER I-PER
 Canada B-LOC B-LOC
 ) O O
 , O O
-Penske B-ORG B-MISC
-Mercedes-Benz I-ORG I-MISC
+Penske B-ORG B-ORG
+Mercedes-Benz I-ORG I-ORG
 , O O
 54.620 O O
 
@@ -34478,8 +34478,8 @@ Jr O I-PER
 U.S. B-LOC B-LOC
 ) O O
 , O O
-Penske B-ORG B-MISC
-Mercedes-Benz I-ORG I-MISC
+Penske B-ORG B-ORG
+Mercedes-Benz I-ORG I-ORG
 , O O
 54.683 O O
 
@@ -34648,8 +34648,8 @@ front O O
 of O O
 an O O
 ecstatic O O
-Ellis B-LOC B-PER
-Park I-LOC I-PER
+Ellis B-LOC B-LOC
+Park I-LOC I-LOC
 crowd O O
 on O O
 Saturday O O
@@ -36145,8 +36145,8 @@ Sunday O O
 
 BASKETBALL O O
 - O O
-TROFEJ B-MISC B-ORG
-BEOGRAD I-MISC I-ORG
+TROFEJ B-MISC B-PER
+BEOGRAD I-MISC O
 TOURNAMENT I-MISC O
 RESULTS O O
 . O O
@@ -36157,9 +36157,9 @@ BELGRADE B-LOC B-LOC
 Results O O
 in O O
 the O O
-Trofej B-MISC B-ORG
-Beograd I-MISC I-ORG
-96 I-MISC O
+Trofej B-MISC B-MISC
+Beograd I-MISC I-MISC
+96 I-MISC I-MISC
 
 international O O
 basketball O O
@@ -36222,9 +36222,9 @@ BELGRADE B-LOC B-LOC
 Results O O
 in O O
 the O O
-Trofej B-MISC B-ORG
-Beograd I-MISC I-ORG
-96 I-MISC O
+Trofej B-MISC B-MISC
+Beograd I-MISC I-MISC
+96 I-MISC I-MISC
 
 international O O
 basketball O O
@@ -36596,7 +36596,7 @@ halftime O O
 in O O
 a O O
 European B-MISC B-MISC
-Under-21 O I-MISC
+Under-21 O O
 soccer O O
 championship O O
 group O O
@@ -37313,8 +37313,8 @@ and O O
 first O O
 since O O
 the O O
-1993 B-MISC O
-BellSouth I-MISC B-MISC
+1993 B-MISC B-MISC
+BellSouth I-MISC I-MISC
 Classic I-MISC I-MISC
 . O O
 
@@ -38059,7 +38059,7 @@ Joe I-PER I-PER
 Fernandez I-PER I-PER
 have O O
 forced O O
-King B-PER B-PER
+King B-PER O
 to O O
 take O O
 a O O
@@ -38381,9 +38381,9 @@ September O O
 27-28 O O
 ) O O
 
-World O B-ORG
-Group O I-ORG
-II O I-ORG
+World O B-MISC
+Group O I-MISC
+II O I-MISC
 , O O
 first O O
 round O O
@@ -38417,8 +38417,8 @@ SOCCER O O
 - O O
 U.S. B-LOC B-LOC
 BEAT O O
-EL B-LOC B-ORG
-SALVADOR I-LOC I-ORG
+EL B-LOC B-LOC
+SALVADOR I-LOC I-LOC
 3-1 O O
 . O O
 
@@ -38974,9 +38974,9 @@ REDS B-ORG B-ORG
 CINCINNATI B-LOC B-LOC
 1996-08-31 O O
 
-Major O B-MISC
-league O I-MISC
-ERA B-MISC I-MISC
+Major O O
+league O O
+ERA B-MISC B-MISC
 leader O O
 Kevin B-PER B-PER
 Brown I-PER I-PER
@@ -39287,8 +39287,8 @@ the O O
 Phillies B-ORG B-ORG
 . O O
 
-Los B-ORG B-ORG
-Angeles I-ORG I-ORG
+Los B-ORG B-LOC
+Angeles I-ORG I-LOC
 won O O
 for O O
 the O O
@@ -39842,7 +39842,7 @@ win O O
 St B-ORG B-ORG
 Louis I-ORG I-ORG
 defeated O O
-Colorado B-ORG B-LOC
+Colorado B-ORG B-ORG
 for O O
 just O O
 the O O
@@ -40978,7 +40978,7 @@ Johnson I-PER I-PER
 successfully O O
 defended O O
 his O O
-IBF B-ORG B-MISC
+IBF B-ORG B-ORG
 featherweight O O
 title O O
 when O O
@@ -42599,7 +42599,7 @@ Miller I-PER I-PER
 successfully O O
 defended O O
 his O O
-WBA B-ORG B-MISC
+WBA B-ORG B-ORG
 cruiserweight O O
 title O O
 when O O
@@ -42979,7 +42979,7 @@ Lithuania B-LOC B-LOC
 in O O
 their O O
 European B-MISC B-MISC
-Under-21 O I-MISC
+Under-21 O O
 soccer O O
 match O O
 on O O
@@ -43272,8 +43272,8 @@ admitted O O
 in O O
 her O O
 biography O O
-My B-MISC B-PER
-Turn I-MISC I-PER
+My B-MISC O
+Turn I-MISC O
 that O O
 she O O
 regularly O O
@@ -43374,9 +43374,9 @@ arts O O
 French B-MISC B-MISC
 troops O O
 under O O
-Duke O B-LOC
-of O I-LOC
-Orleans B-LOC I-LOC
+Duke O B-ORG
+of O I-ORG
+Orleans B-LOC I-ORG
 besieging O O
 Turin B-LOC B-LOC
 were O O
@@ -43385,8 +43385,8 @@ by O O
 the O O
 Austrians B-MISC B-MISC
 under O O
-Prince O B-PER
-Eugene B-ORG I-PER
+Prince O O
+Eugene B-ORG B-PER
 , O O
 the O O
 French B-MISC B-MISC
@@ -43425,7 +43425,7 @@ ending O O
 War B-MISC B-MISC
 of I-MISC I-MISC
 Spanish I-MISC I-MISC
-Succession I-MISC O
+Succession I-MISC I-MISC
 . O O
 
 Charles B-PER B-PER
@@ -43450,8 +43450,8 @@ Freiburg B-LOC B-ORG
 Russian B-MISC B-MISC
 army O O
 under O O
-General O B-PER
-Kutuzov B-PER I-PER
+General O O
+Kutuzov B-PER B-PER
 was O O
 defeated O O
 at O O
@@ -43574,8 +43574,8 @@ In O O
 China B-LOC B-LOC
 , O O
 the O O
-Boxer B-MISC B-MISC
-Rising I-MISC I-MISC
+Boxer B-MISC B-ORG
+Rising I-MISC I-ORG
 which O O
 attempted O O
 to O O
@@ -43633,8 +43633,8 @@ best O O
 known O O
 for O O
 " O O
-Viva B-MISC B-ORG
-Zapata I-MISC I-ORG
+Viva B-MISC B-MISC
+Zapata I-MISC I-MISC
 " O O
 and O O
 " O O
@@ -43672,8 +43672,8 @@ in O O
 " O O
 Ice B-MISC B-MISC
 Cold I-MISC I-MISC
-in I-MISC I-MISC
-Alex I-MISC I-MISC
+in I-MISC O
+Alex I-MISC B-PER
 " O O
 , O O
 " O O
@@ -43731,7 +43731,7 @@ name O O
 Belgian B-MISC B-MISC
 King O O
 Baudouin B-PER B-PER
-I I-PER I-PER
+I I-PER O
 born O O
 . O O
 
@@ -43767,7 +43767,7 @@ Goering I-PER I-PER
 began O O
 its O O
 " O O
-Blitz B-MISC B-MISC
+Blitz B-MISC B-ORG
 " O O
 bombing O O
 campaign O O
@@ -43899,7 +43899,7 @@ Alan B-PER B-PER
 John I-PER I-PER
 Percivale I-PER I-PER
 ( I-PER O
-A.J.P. I-PER B-LOC
+A.J.P. I-PER B-PER
 ) I-PER O
 Taylor I-PER B-PER
 died O O
@@ -46991,7 +46991,7 @@ would O O
 on O O
 Monday O O
 inform O O
-Privatisation O B-ORG
+Privatisation O O
 Minister O O
 Wieslaw B-PER B-PER
 Kaczmarek I-PER I-PER
@@ -47444,11 +47444,11 @@ Woman I-MISC I-MISC
 . O O
 " O O
 
-Granma B-ORG B-ORG
+Granma B-ORG B-PER
 called O O
 " O O
-Sleeping B-MISC B-MISC
-Bread I-MISC I-MISC
+Sleeping B-MISC B-ORG
+Bread I-MISC I-ORG
 " O O
 Puig B-PER B-PER
 's O O
@@ -49084,8 +49084,8 @@ James B-PER B-PER
 Leander I-PER I-PER
 ( I-PER O
 Leo I-PER B-PER
-) I-PER O
-Nichols I-PER B-PER
+) I-PER I-PER
+Nichols I-PER I-PER
 , O O
 a O O
 close O O
@@ -51798,10 +51798,10 @@ Safety O I-MISC
 : O I-MISC
 Everyone O I-MISC
 Buckled O I-MISC
-, O O
-Kids O O
-in O O
-Back O O
+, O I-MISC
+Kids O I-MISC
+in O I-MISC
+Back O I-MISC
 . O O
 " O O
 
@@ -52692,8 +52692,8 @@ the O O
 aircraft O O
 carriers O O
 Vinson B-MISC B-ORG
-and O I-ORG
-Enterprise B-MISC I-ORG
+and O O
+Enterprise B-MISC B-ORG
 , O O
 the O O
 Air B-ORG B-ORG
@@ -54274,7 +54274,7 @@ VENICE O B-LOC
 Italy B-LOC B-LOC
 1996-08-31 O O
 
-Dublin-born O O
+Dublin-born O B-MISC
 director O O
 Neil B-PER B-PER
 Jordan I-PER I-PER
@@ -54374,8 +54374,8 @@ fan O O
 sectarian O O
 tensions O O
 in O O
-British-ruled B-LOC B-MISC
-Northern I-LOC B-LOC
+British-ruled B-LOC B-LOC
+Northern I-LOC I-LOC
 Ireland I-LOC I-LOC
 . O O
 
@@ -54513,8 +54513,8 @@ the O O
 world O O
 , O O
 from O O
-Mao B-PER B-PER
-Tse-Tung I-PER I-PER
+Mao B-PER B-LOC
+Tse-Tung I-PER I-LOC
 in O O
 China B-LOC B-LOC
 to O O
@@ -54573,7 +54573,7 @@ was O O
 nominated O O
 for O O
 an O O
-Oscar B-PER O
+Oscar B-PER B-MISC
 for O O
 best O O
 actor O O
@@ -54972,8 +54972,8 @@ chips O O
 like O O
 IDLC B-ORG B-ORG
 , O O
-Bangladesh B-ORG B-ORG
-Lamps I-ORG I-ORG
+Bangladesh B-ORG B-LOC
+Lamps I-ORG I-LOC
 , O O
 Chittagong B-ORG B-ORG
 Cement I-ORG I-ORG
