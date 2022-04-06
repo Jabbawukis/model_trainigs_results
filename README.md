@@ -3,13 +3,13 @@
 
 ## Round 1.
 - No rnn and no reproject_embeddings, 10 training runs
-- 1-2: Baseline, all without Gazetteer Embeddings, model 1 with Glove, model 2 without Glove
+- 1-2: Baseline, all without Gazetteer Embeddings, model 01 with Glove, model 02 without Glove
 - 3-5: all with Gazetteer Embeddings, all without Glove, model 03 with partial and full matching, model 04 with only full model 05 with only partial matching
 - 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 05 with only full model 08 with only partial matching
 
 ## Round 2.
 - With rnn and with reproject_embeddings, 3 training runs
-- 1-2: Baseline, all without Gazetteer Embeddings, model 1 with Glove, model 2 without Glove
+- 1-2: Baseline, all without Gazetteer Embeddings, model 01 with Glove, model 02 without Glove
 - 3-5: all with Gazetteer Embeddings, all without Glove, model 03 with partial and full matching, model 04 with only full model 05 with only partial matching
 - 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 05 with only full model 08 with only partial matching
 
@@ -26,6 +26,14 @@
 
 ## Round 5.
 - With rnn and with reproject_embeddings, with use_all_gazetteers, 6 training runs
-- 1-2: Baseline, all without Gazetteer Embeddings, model 1 with Glove, model 2 without Glove
+- 1-2: Baseline, all without Gazetteer Embeddings, model 01 with Glove, model 02 without Glove
+- 3-5: all with Gazetteer Embeddings, all without Glove, model 03 with partial and full matching, model 04 with only full model 05 with only partial matching
+- 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 05 with only full model 08 with only partial matching
+
+# model trainigs results on the NER_ENGLISH_STACKOVERFLOW data set
+
+## Round 6.
+- With rnn and with reproject_embeddings, with use_all_gazetteers, 5 training runs
+- 1-2: Baseline, all without Gazetteer Embeddings, model 01 with Glove, model 02 without Glove
 - 3-5: all with Gazetteer Embeddings, all without Glove, model 03 with partial and full matching, model 04 with only full model 05 with only partial matching
 - 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 05 with only full model 08 with only partial matching
