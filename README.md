@@ -33,7 +33,7 @@
 # model trainigs results on the NER_ENGLISH_STACKOVERFLOW data set
 
 ## Round 6.
-- With rnn and with reproject_embeddings, with use_all_gazetteers, 5 training runs, with gazetteer collection
+- With rnn and with reproject_embeddings, with use_all_gazetteers, 5 training runs, with code_gazetteers
 - 1-2: Baseline, all without Gazetteer Embeddings, model 01 with Glove, model 02 without Glove
 - 3-5: all with Gazetteer Embeddings, all without Glove, model 03 with partial and full matching, model 04 with only full model 05 with only partial matching
 - 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 07 with only full model 08 with only partial matching
