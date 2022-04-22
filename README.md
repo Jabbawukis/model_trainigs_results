@@ -1,5 +1,5 @@
 # model trainigs results on the CONLL_03 data set
-
+gazetteer-collection provided by: https://github.com/hltcoe/gazetteer-collection
 
 ## Round 1.
 - No rnn and no reproject_embeddings, 10 training runs
@@ -39,7 +39,7 @@
 - 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 07 with only full model 08 with only partial matching
 
 ## Round 7.
-- With rnn and with reproject_embeddings, with use_all_gazetteers, 5 training runs, with gazetteer collection + code_gazetteers
+- With rnn and with reproject_embeddings, with use_all_gazetteers, 5 training runs, with gazetteer-collection + code_gazetteers
 - No Baseline models
 - 3-5: all with Gazetteer Embeddings, all without Glove, model 03 with partial and full matching, model 04 with only full model 05 with only partial matching
 - 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 07 with only full model 08 with only partial matching
