@@ -35,7 +35,7 @@ gazetteer-collection provided by: https://github.com/hltcoe/gazetteer-collection
 - 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 07 with only full model 08 with only partial matching
 
 ## Round 10.
-- With rnn and with reproject_embeddings, with use_all_gazetteers, 3 training runs, with gazetteer-collection+GEMNET gazetteers+count sensitive gazetteers
+- With rnn and with reproject_embeddings, with use_all_gazetteers, 3 training runs, with gazetteer-collection + GEMNET gazetteers + count sensitive gazetteers
 - No Baseline models
 - 3-5: all with Gazetteer Embeddings, all without Glove, model 03 with partial and full matching, model 04 with only full model 05 with only partial matching
 - 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 07 with only full model 08 with only partial matching
@@ -45,6 +45,12 @@ gazetteer-collection provided by: https://github.com/hltcoe/gazetteer-collection
 ## Round 5.
 - With rnn and with reproject_embeddings, with use_all_gazetteers, 6 training runs
 - 1-2: Baseline, all without Gazetteer Embeddings, model 01 with Glove, model 02 without Glove
+- 3-5: all with Gazetteer Embeddings, all without Glove, model 03 with partial and full matching, model 04 with only full model 05 with only partial matching
+- 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 07 with only full model 08 with only partial matching
+
+## Round 11.
+- With rnn and with reproject_embeddings, with use_all_gazetteers, 6 training runs, with gazetteer-collection + GEMNET gazetteers + count sensitive 
+- No Baseline models
 - 3-5: all with Gazetteer Embeddings, all without Glove, model 03 with partial and full matching, model 04 with only full model 05 with only partial matching
 - 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 07 with only full model 08 with only partial matching
 
