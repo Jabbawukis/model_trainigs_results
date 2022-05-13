@@ -2,25 +2,25 @@
 gazetteer-collection provided by: https://github.com/hltcoe/gazetteer-collection
 
 ## Round 1.
-- No rnn and no reproject_embeddings, 10 training runs
+- No rnn and no reproject_embeddings, 10 training runs, with gazetteer-collection
 - 1-2: Baseline, all without Gazetteer Embeddings, model 01 with Glove, model 02 without Glove
 - 3-5: all with Gazetteer Embeddings, all without Glove, model 03 with partial and full matching, model 04 with only full model 05 with only partial matching
 - 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 07 with only full model 08 with only partial matching
 
 ## Round 2.
-- With rnn and with reproject_embeddings, 3 training runs
+- With rnn and with reproject_embeddings, 3 training runs, with gazetteer-collection
 - 1-2: Baseline, all without Gazetteer Embeddings, model 01 with Glove, model 02 without Glove
 - 3-5: all with Gazetteer Embeddings, all without Glove, model 03 with partial and full matching, model 04 with only full model 05 with only partial matching
 - 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 07 with only full model 08 with only partial matching
 
 ## Round 3.
-- With rnn and with reproject_embeddings, with use_all_gazetteers, 3 training runs
+- With rnn and with reproject_embeddings, with use_all_gazetteers, 3 training runs, with gazetteer-collection
 - No Baseline models
 - 3-5: all with Gazetteer Embeddings, all without Glove, model 03 with partial and full matching, model 04 with only full model 05 with only partial matching
 - 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 07 with only full model 08 with only partial matching
 
 ## Round 4. (3.5)
-- Same as Round 3 but with extended gazetteer collection
+- Same as Round 3 but with extended gazetteer-collection (see directory readme)
 
 ## Round 8.
 - With rnn and with reproject_embeddings, with use_all_gazetteers, 3 training runs, only with GEMNET gazetteers https://code-mixed-ner.s3.amazonaws.com/readme.html
@@ -47,7 +47,7 @@ gazetteer-collection provided by: https://github.com/hltcoe/gazetteer-collection
 - 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 07 with only full model 08 with only partial matching
 
 ## Round 12.
-- With rnn and with reproject_embeddings, with use_all_gazetteers, with tokenize_gazetteer_entries, 3 training runs
+- With rnn and with reproject_embeddings, with use_all_gazetteers, with tokenize_gazetteer_entries, 3 training runs, with gazetteer-collection
 - No Baseline models
 - 3-5: all with Gazetteer Embeddings, all without Glove, model 03 with partial and full matching, model 04 with only full model 05 with only partial matching
 - 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 07 with only full model 08 with only partial matching
@@ -55,7 +55,7 @@ gazetteer-collection provided by: https://github.com/hltcoe/gazetteer-collection
 # model trainigs results on the WNUT_17 data set
 
 ## Round 5.
-- With rnn and with reproject_embeddings, with use_all_gazetteers, 6 training runs
+- With rnn and with reproject_embeddings, with use_all_gazetteers, 6 training runs, with gazetteer-collection
 - 1-2: Baseline, all without Gazetteer Embeddings, model 01 with Glove, model 02 without Glove
 - 3-5: all with Gazetteer Embeddings, all without Glove, model 03 with partial and full matching, model 04 with only full model 05 with only partial matching
 - 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 07 with only full model 08 with only partial matching
@@ -67,7 +67,7 @@ gazetteer-collection provided by: https://github.com/hltcoe/gazetteer-collection
 - 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 07 with only full model 08 with only partial matching
 
 ## Bonus Round
-- With rnn and with reproject_embeddings, with use_all_gazetteers, 6 training runs
+- With rnn and with reproject_embeddings, with use_all_gazetteers, 6 training runs, with gazetteer-collection
 - model 05 and model 06 from previous round with a manually added entities to the COMP gazetteers ("Mandalorian" and "The Mandalorian")
 
 # model trainigs results on the NER_ENGLISH_STACKOVERFLOW data set
