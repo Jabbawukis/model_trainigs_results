@@ -68,6 +68,12 @@ GEMNET gazetteer provided by: https://code-mixed-ner.s3.amazonaws.com/readme.htm
 - 3-5: all with Gazetteer Embeddings, all without Glove, model 03 with partial and full matching, model 04 with only full model 05 with only partial matching
 - 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 07 with only full model 08 with only partial matching
 
+## Round 12.
+- With rnn and with reproject_embeddings, with use_all_gazetteers, with tokenize_gazetteer_entries, 6 training runs, with gazetteer-collection
+- No Baseline models
+- 3-5: all with Gazetteer Embeddings, all without Glove, model 03 with partial and full matching, model 04 with only full model 05 with only partial matching
+- 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 07 with only full model 08 with only partial matching
+
 ## Bonus Round
 - With rnn and with reproject_embeddings, with use_all_gazetteers, 6 training runs, with gazetteer-collection
 - model 05 and model 06 from previous round with a manually added entities to the COMP gazetteers ("Mandalorian" and "The Mandalorian")
