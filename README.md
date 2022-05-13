@@ -75,7 +75,7 @@ GEMNET gazetteer provided by: https://code-mixed-ner.s3.amazonaws.com/readme.htm
 - 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 07 with only full model 08 with only partial matching
 
 ## Bonus Round
-- With rnn and with reproject_embeddings, with use_all_gazetteers, 6 training runs, with gazetteer-collection
+- Same as WNUT_17 round 05
 - model 05 and model 06 from previous round with a manually added entities to the COMP gazetteers ("Mandalorian" and "The Mandalorian")
 
 # model trainigs results on the NER_ENGLISH_STACKOVERFLOW data set
