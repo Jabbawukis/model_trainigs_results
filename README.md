@@ -42,13 +42,13 @@ GEMNET gazetteer provided by: https://code-mixed-ner.s3.amazonaws.com/readme.htm
 - 3-5: all with Gazetteer Embeddings, all without Glove, model 03 with partial and full matching, model 04 with only full model 05 with only partial matching
 - 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 07 with only full model 08 with only partial matching
 
-## Round 11.
+## Round 12.
 - With rnn and with reproject_embeddings, without use_all_gazetteers (not necessary), 3 training runs, only with NON-count sensitive gazetteers provided by Susanna Rücker
 - No Baseline models
 - 3-5: all with Gazetteer Embeddings, all without Glove, model 03 with partial and full matching, model 04 with only full model 05 with only partial matching
 - 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 07 with only full model 08 with only partial matching
 
-## Round 12.
+## Round 13.
 - With rnn and with reproject_embeddings, with use_all_gazetteers, with tokenize_gazetteer_entries, 3 training runs, with gazetteer-collection
 - No Baseline models
 - 3-5: all with Gazetteer Embeddings, all without Glove, model 03 with partial and full matching, model 04 with only full model 05 with only partial matching
@@ -68,7 +68,7 @@ GEMNET gazetteer provided by: https://code-mixed-ner.s3.amazonaws.com/readme.htm
 - 3-5: all with Gazetteer Embeddings, all without Glove, model 03 with partial and full matching, model 04 with only full model 05 with only partial matching
 - 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 07 with only full model 08 with only partial matching
 
-## Round 12.
+## Round 14.
 - With rnn and with reproject_embeddings, with use_all_gazetteers, with tokenize_gazetteer_entries, 6 training runs, with gazetteer-collection
 - No Baseline models
 - 3-5: all with Gazetteer Embeddings, all without Glove, model 03 with partial and full matching, model 04 with only full model 05 with only partial matching
