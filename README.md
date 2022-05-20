@@ -80,7 +80,7 @@ GEMNET gazetteer provided by: https://code-mixed-ner.s3.amazonaws.com/readme.htm
 - 3-5: all with Gazetteer Embeddings, all without Glove, model 03 with partial and full matching, model 04 with only full model 05 with only partial matching
 - 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 07 with only full model 08 with only partial matching
 
-## Round 15.
+## Round 16.
 - With rnn and with reproject_embeddings, with use_all_gazetteers, 6 training runs, with GEMNET gazetteers
 - No Baseline models
 - 3-5: all with Gazetteer Embeddings, all without Glove, model 03 with partial and full matching, model 04 with only full model 05 with only partial matching
