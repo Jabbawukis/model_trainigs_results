@@ -32,5 +32,5 @@ print("Standard Deviation Micro F1 =", round(stdev(micro_f1), 5))
 print("Average Macro F1 =", round(mean(macro_f1), 4))
 print("Standard Deviation Macro F1 =", round(stdev(macro_f1), 5))
 
-print("Average Accuracy F1 =", round(mean(accuracy), 4))
-print("Standard Deviation Accuracy F1 =", round(stdev(accuracy), 5))
+print("Average Accuracy =", round(mean(accuracy), 4))
+print("Standard Deviation Accuracy =", round(stdev(accuracy), 5))
