@@ -15,7 +15,7 @@ os.mkdir(path)
 print("Directory '%s' created" %directory)
 
 create_dirs = []
-for i in range(3, 9):
+for i in range(int(sys.argv[3]), 9):
     path1 = os.path.join(path + "/", f"model_0{i}_{data_set}_r{round}")
     os.mkdir(path1)
     print("Directory '%s' created" % f"model_0{i}_{data_set}_r{round}")
