@@ -80,6 +80,10 @@ MODELS CONSTELLATIONS:
 - With rnn and with reproject_embeddings, with use_all_gazetteers, 6 training runs, with EXTENDED count sensitive gazetteers provided by Susanna Rücker
 - No Baseline models
 
+## Round 19.
+- With rnn and with reproject_embeddings, with use_all_gazetteers, 6 training runs, with gazetteer-collection + GEMNET gazetteers + EXTENDED count sensitive gazetteers
+- No Baseline models
+
 ## Bonus Round
 - Same as WNUT_17 round 05
 - model 05 and model 06 from previous round with a manually added entities to the COMP gazetteers ("Mandalorian" and "The Mandalorian")
