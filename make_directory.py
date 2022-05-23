@@ -22,7 +22,7 @@ for i in range(3, 9):
     create_dirs.append(f"model_0{i}_{data_set}_r{round}")
 
 
-i = 3
+i = sys.argv[3]
 for model in create_dirs:
     p = subprocess.Popen(f"mv ../flair/gazetteer_embeddings_scripts/resources/taggers/model_0{i}* "
                          f"{os.getcwd()}/{directory}/{model}/", stdout=subprocess.PIPE, shell=True)
