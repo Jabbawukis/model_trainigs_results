@@ -26,11 +26,14 @@ for file in file_list:
             if re.search(accuracy_pattern, line):
                 accuracy.append(float(re.findall("\d+\.\d+", line)[0]))
 
-print("Average Micro F1 =", round(mean(micro_f1), 4))
+micro_out_f1 = str(round(mean(micro_f1), 4)).split(".")[1]
+print(f"Average Micro F1 = {micro_out_f1[:2] + '.' + micro_out_f1[2:]}")
 print("Standard Deviation Micro F1 =", round(stdev(micro_f1), 5))
 
-print("Average Macro F1 =", round(mean(macro_f1), 4))
+macro_out_f1 = str(round(mean(macro_f1), 4)).split(".")[1]
+print(f"Average Macro F1 = {macro_out_f1[:2] + '.' + macro_out_f1[2:]}")
 print("Standard Deviation Macro F1 =", round(stdev(macro_f1), 5))
 
-print("Average Accuracy =", round(mean(accuracy), 4))
+acc_out = str(round(mean(accuracy), 4)).split(".")[1]
+print(f"Average Accuracy = {acc_out[:2] + '.' + acc_out[2:]}")
 print("Standard Deviation Accuracy =", round(stdev(accuracy), 5))
