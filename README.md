@@ -19,7 +19,7 @@ MODELS CONSTELLATIONS:
 - 6-8: all with Gazetteer Embeddings, all with Glove, model 06 with partial and full matching, model 07 with only full model 08 with only partial matching
 
 ## Round 1.
-- No rnn and no reproject_embeddings, 10 training runs, with gazetteer-collection
+- No rnn and no reproject_embeddings!, 10 training runs, with gazetteer-collection
 
 ## Round 2.
 - With rnn and with reproject_embeddings, 3 training runs, with gazetteer-collection
