@@ -4,7 +4,7 @@ gazetteer-collection provided by: https://github.com/hltcoe/gazetteer-collection
 GEMNET gazetteer provided by: https://code-mixed-ner.s3.amazonaws.com/readme.html
 
 SHARED_MODEL_PARAMATERS (unless explicitly set otherwise):
-label_type=ner
+- label_type=ner
 hidden_size=256
 use_crf=True
 learning_rate=0.1
