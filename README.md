@@ -5,13 +5,13 @@ GEMNET gazetteer provided by: https://code-mixed-ner.s3.amazonaws.com/readme.htm
 
 SHARED_MODEL_PARAMATERS (unless explicitly set otherwise):
 - label_type=ner
-hidden_size=256
-use_crf=True
-learning_rate=0.1
-mini_batch_size=32
-max_epochs=150
-reproject_embeddings=True
-use_rnn=True
+- hidden_size=256
+- use_crf=True
+- learning_rate=0.1
+- mini_batch_size=32
+- max_epochs=150
+- reproject_embeddings=True
+- use_rnn=True
 
 MODELS CONSTELLATIONS:
 - 1-2: Baseline, all without Gazetteer Embeddings, model 01 with Glove, model 02 without Glove
